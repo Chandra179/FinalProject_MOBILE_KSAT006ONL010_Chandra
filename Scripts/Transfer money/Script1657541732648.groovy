@@ -50,6 +50,8 @@ Mobile.verifyElementVisible(findTestObject('Transfer/Body/Receiving account/text
 
 Mobile.verifyElementVisible(findTestObject('Transfer/Body/btn_Confirm Transfer'), 0)
 
+Mobile.tap(findTestObject('Transfer/Body/Sending account/android.widget.EditText - Transfer Amount'), 0)
+
 Mobile.setText(findTestObject('Transfer/Body/Sending account/android.widget.EditText - Transfer Amount'), moneyToTransfer, 
     0)
 
@@ -57,14 +59,13 @@ Mobile.setText(findTestObject('Transfer/Body/Sending account/android.widget.Edit
 // Before transfer money
 //======================
 String receiver = Mobile.getText(findTestObject('Transfer/Body/Receiving account/text_Spinner receiving acccount'), 0)
-String sender = Mobile.getText(findTestObject('Transfer/Body/Sending account/text_Spinner sending account'), 0)
 
+String sender = Mobile.getText(findTestObject('Transfer/Body/Sending account/text_Spinner sending account'), 0)
 
 //======================
 // After transfer money
 //======================
 Mobile.tap(findTestObject('Transfer/Body/btn_Confirm Transfer'), 0, FailureHandling.STOP_ON_FAILURE)
-
 
 //======================
 // Verify transfer
@@ -72,18 +73,26 @@ Mobile.tap(findTestObject('Transfer/Body/btn_Confirm Transfer'), 0, FailureHandl
 Integer inputBalanceNums = moneyToTransfer.toInteger()
 
 String[] receiverBalanceString = receiver.split('(?<=\\D)(?=\\d)')
+
 Integer receiverBalanceNums = (receiverBalanceString[1]).replace('.', '').toInteger()
+
 Integer updatedBalanceReceiverNums = receiverBalanceNums + inputBalanceNums
+
 String updatedBalanceReceiverString = ((receiverBalanceString[0]) + updatedBalanceReceiverNums.toString()) + '.00'
 
 String[] senderBalanceString = sender.split('(?<=\\D)(?=\\d)')
+
 Integer senderBalanceNums = (senderBalanceString[1]).replace('.', '').toInteger()
+
 Integer updatedBalanceSenderNums = senderBalanceNums - inputBalanceNums
+
 String updatedBalanceSenderString = ((senderBalanceString[0]) + updatedBalanceSenderNums.toString()) + '.00'
 
-Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Body/Receiving account/text_Spinner receiving acccount'), updatedBalanceReceiverString)
-Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Body/Sending account/text_Spinner sending account'), updatedBalanceSenderString)
+Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Body/Receiving account/text_Spinner receiving acccount'), 
+    updatedBalanceReceiverString)
 
+Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Body/Sending account/text_Spinner sending account'), 
+    updatedBalanceSenderString)
 
 driver.terminateApp(GlobalVariable.bundleID)
 
