@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Make a deposit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc3fafe6-6577-4dd1-8acd-548647aafc2a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6cc56d47-82e4-4d81-8951-374681f5b2d0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'300'</defaultValue>
+      <description></description>
+      <id>6cc56d47-82e4-4d81-8951-374681f5b2d0</id>
+      <masked>false</masked>
+      <name>deposit</name>
+   </variable>
+</TestCaseEntity>
