@@ -1,31 +1,31 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 52331
+[35m[Appium][39m   port: 64815
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: C:\Users\095047\AppData\Local\Temp\\Katalon\Appium\Temp1657511049745
-[35m[Appium][39m   chromedriverPort: 52332
+[35m[Appium][39m   tmpDir: C:\Users\095047\AppData\Local\Temp\\Katalon\Appium\Temp1657534162100
+[35m[Appium][39m   chromedriverPort: 64816
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 52332
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:52331
+[35m[Appium][39m   chromedriverPort: 64816
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:64815
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"8.1.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"c7b211f89905","deviceName":"Xiaomi Redmi 5 Plus (Android 8.1.0)","platform":"ANDROID","systemPort":8241},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi 5 Plus (Android 8.1.0)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.1.0","appium:systemPort":8241,"appium:udid":"c7b211f89905"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"8.1.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"c7b211f89905","deviceName":"Xiaomi Redmi 5 Plus (Android 8.1.0)","platform":"ANDROID","systemPort":8244},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi 5 Plus (Android 8.1.0)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.1.0","appium:systemPort":8244,"appium:udid":"c7b211f89905"}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   platform
 [35m[BaseDriver][39m   chromedriverPort
 [35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 63e2d572-f1bf-45f2-81b8-364097376583
+[35m[BaseDriver][39m Session created with session id: 4208ff57-672a-4e27-bd8b-2f5efc3bb085
 [35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
 [35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\095047\.katalon\tools\android_sdk' (newest first):
 [35m[ADB][39m     C:/Users/095047/.katalon/tools/android_sdk/build-tools/29.0.3
@@ -46,746 +46,110 @@
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 63e2d572-f1bf-45f2-81b8-364097376583 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m16731 ms - 1176[39m
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 4208ff57-672a-4e27-bd8b-2f5efc3bb085 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m17349 ms - 1176[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583 [39m[32m200[39m [90m22 ms - 1130[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085 [39m[32m200[39m [90m28 ms - 1130[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583 [39m[32m200[39m [90m19 ms - 1130[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085 [39m[32m200[39m [90m30 ms - 1130[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/timeouts [39m[32m200[39m [90m2 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m922 ms - 155028[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/screenshot [39m[32m200[39m [90m967 ms - 155602[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/window/rect [39m[32m200[39m [90m52 ms - 50[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/window/rect [39m[32m200[39m [90m34 ms - 50[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/appium/device/system_bars[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/appium/device/system_bars[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/appium/device/system_bars [39m[32m200[39m [90m134 ms - 151[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/appium/device/system_bars [39m[32m200[39m [90m111 ms - 151[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/appium/device/activate_app[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/appium/device/activate_app[39m
 [35m[HTTP][39m [90m{"bundleId":"com.example.mikebanks.bankscorpfinancial"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/appium/device/activate_app [39m[32m200[39m [90m1118 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/appium/device/activate_app [39m[32m200[39m [90m1036 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m2048 ms - 10622[39m
+[35m[W3C (4208ff57)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId d3cc3509-c81a-4bb4-a7de-c7cf90128845 with 4208ff57-672a-4e27-bd8b-2f5efc3bb085
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/source [39m[32m200[39m [90m1850 ms - 20707[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m852 ms - 96088[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/screenshot [39m[32m200[39m [90m1011 ms - 254752[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Bank App Demo' or . = 'Bank App Demo')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m1444 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/action_about' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m822 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'chan' or . = 'chan') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_username']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m607 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = '••••' or . = '••••') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_password']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m401 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.CheckBox' and (@text = 'Remember Credentials' or . = 'Remember Credentials') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/chk_remember']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m376 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'LOGIN' or . = 'LOGIN') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_login']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m265 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = concat(\"Don\" , \"'\" , \"t have a profile?\") or . = concat(\"Don\" , \"'\" , \"t have a profile?\")) and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_account_msg']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m260 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'CREATE A PROFILE' or . = 'CREATE A PROFILE') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_create_account']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m714 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m829 ms - 11542[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m877 ms - 89804[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'First Name' or . = 'First Name') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_first_name']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m245 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Last Name' or . = 'Last Name') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_last_name']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m218 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Country' or . = 'Country') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_country']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m612 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Username' or . = 'Username') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_username']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m225 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Password' or . = 'Password') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_password']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m199 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Confirm Password' or . = 'Confirm Password') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_password_confirm']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m192 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Create Profile' or . = 'Create Profile') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_create_account']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m183 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageButton' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m596 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Create Profile' or . = 'Create Profile')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m169 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m693 ms - 10775[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m767 ms - 131390[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageButton' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m178 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Dashboard' or . = 'Dashboard')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m149 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m182 ms - 10775[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m759 ms - 131714[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/img_time' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m419 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Good morning, jack. Welcome to the Bank App Demo. Happy Monday.' or . = 'Good morning, jack. Welcome to the Bank App Demo. Happy Monday.') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_welcome']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m702 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'You do not have any accounts, click below to add an account' or . = 'You do not have any accounts, click below to add an account') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_details_msg']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m153 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'ADD ACCOUNT' or . = 'ADD ACCOUNT') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_add_account']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m344 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m134 ms - 9733[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m755 ms - 82008[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/action_about' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m381 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m158 ms - 10774[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m769 ms - 129180[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m147 ms - 10774[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m755 ms - 128902[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m124 ms - 9733[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m808 ms - 81100[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Add an Account with the button below' or . = 'Add an Account with the button below') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_title_msg']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m128 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageButton' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/floating_action_btn' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m129 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m128 ms - 4541[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m845 ms - 164342[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Add an Account' or . = 'Add an Account') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/textView']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m110 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Account Name' or . = 'Account Name') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_payee_name']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m273 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Initial Balance (Optional)' or . = 'Initial Balance (Optional)') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_init_bal']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m106 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'CANCEL' or . = 'CANCEL') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_cancel_dialog']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m567 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'ADD' or . = 'ADD') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_add_payee']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m543 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m145 ms - 9034[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m881 ms - 255380[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Deposit Error' or . = 'Deposit Error') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/alertTitle']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m133 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'You do not have enough accounts to make a Deposit. Add another account if you want to make a deposit.' or . = 'You do not have enough accounts to make a Deposit. Add another account if you want to make a deposit.') and @resource-id = 'android:id/message']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m477 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'CANCEL' or . = 'CANCEL') and @resource-id = 'android:id/button2']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m129 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'ADD ACCOUNT' or . = 'ADD ACCOUNT') and @resource-id = 'android:id/button1']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m118 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m598 ms - 9037[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m846 ms - 254116[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Transfer Error' or . = 'Transfer Error') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/alertTitle']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m126 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'You do not have enough accounts to make a Transfer. Add another account if you want to make a transfer.' or . = 'You do not have enough accounts to make a Transfer. Add another account if you want to make a transfer.') and @resource-id = 'android:id/message']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m107 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'CANCEL' or . = 'CANCEL') and @resource-id = 'android:id/button2']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m201 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'ADD ACCOUNT' or . = 'ADD ACCOUNT') and @resource-id = 'android:id/button1']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m103 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m278 ms - 9034[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m856 ms - 254440[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Payment Error' or . = 'Payment Error') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/alertTitle']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m554 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'You do not have enough accounts to make a Payment. Add another account if you want to make a payment.' or . = 'You do not have enough accounts to make a Payment. Add another account if you want to make a payment.') and @resource-id = 'android:id/message']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m285 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'CANCEL' or . = 'CANCEL') and @resource-id = 'android:id/button2']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m82 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'ADD ACCOUNT' or . = 'ADD ACCOUNT') and @resource-id = 'android:id/button1']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m113 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m523 ms - 22987[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m888 ms - 282784[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/img_profile' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m353 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'sum sum' or . = 'sum sum') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_name']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m229 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'sum' or . = 'sum') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_username']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m172 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.CheckedTextView' and (@text = 'Dashboard' or . = 'Dashboard') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m4512 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.CheckedTextView' and (@text = 'Accounts' or . = 'Accounts') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m616 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.view.View' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m225 ms - 267[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\")"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m109 ms - 267[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.CheckedTextView' and (@text = 'Make a Deposit' or . = 'Make a Deposit') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m125 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.CheckedTextView' and (@text = 'Make a Transfer' or . = 'Make a Transfer') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m152 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.CheckedTextView' and (@text = 'Make a Payment' or . = 'Make a Payment') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m133 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.CheckedTextView' and (@text = 'Settings' or . = 'Settings') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m146 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.CheckedTextView' and (@text = 'Logout' or . = 'Logout') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m139 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Profile' or . = 'Profile')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m156 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Transaction' or . = 'Transaction')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m146 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m407 ms - 13262[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m2138 ms - 132186[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Select an Account to view Transactions' or . = 'Select an Account to view Transactions') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_title_msg']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m118 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Swipe on an Account to remove or view details' or . = 'Swipe on an Account to remove or view details') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_details_msg']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m621 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements[39m
 [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/img_account' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m186 ms - 139[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements [39m[32m200[39m [90m1494 ms - 523[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Account balance: $10.00' or . = 'Account balance: $10.00') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_balance']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m121 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Account Image"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements [39m[32m200[39m [90m82 ms - 523[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'tes1' or . = 'tes1') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_account_name']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m111 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/img_account"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements [39m[32m200[39m [90m92 ms - 523[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Account no: A1' or . = 'Account no: A1') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_acc_no']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m99 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.example.mikebanks.bankscorpfinancial:id/img_account\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements [39m[32m200[39m [90m168 ms - 523[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.view.ViewGroup' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m98 ms - 523[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'account1' or . = 'account1') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_account_name']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements [39m[32m200[39m [90m466 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\")"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m65 ms - 523[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'account2' or . = 'account2') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_account_name']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements [39m[32m200[39m [90m429 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/img_account' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements [39m[32m200[39m [90m361 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Account Image"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements [39m[32m200[39m [90m59 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/img_account"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements [39m[32m200[39m [90m67 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.example.mikebanks.bankscorpfinancial:id/img_account\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements [39m[32m200[39m [90m177 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Account balance: $500.00' or . = 'Account balance: $500.00') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_balance']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements [39m[32m200[39m [90m685 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/txt_balance"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements [39m[32m200[39m [90m456 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Account balance: $500.00\").resourceId(\"com.example.mikebanks.bankscorpfinancial:id/txt_balance\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085/elements [39m[32m200[39m [90m151 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m123 ms - 17135[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m781 ms - 118454[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m284 ms - 17135[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m759 ms - 119570[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Account' or . = 'Account') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/lbl_account']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m601 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Type' or . = 'Type') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/lbl_trans_type']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m126 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Order by' or . = 'Order by') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/lbl_date_filter']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m110 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Spinner' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/spn_accounts' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m125 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'tes1 ($10.00)' or . = 'tes1 ($10.00)') and @resource-id = 'android:id/text1']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m114 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Spinner' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/spn_type_filter' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m117 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'All' or . = 'All') and @resource-id = 'android:id/text1']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m125 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'All' or . = 'All') and @resource-id = 'android:id/text1']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m114 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Spinner' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/spn_date_filter' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m120 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Old - New' or . = 'Old - New') and @resource-id = 'android:id/text1']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m103 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Account: tes1 (A1)' or . = 'Account: tes1 (A1)') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_account_name']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m113 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Balance: $10.00' or . = 'Balance: $10.00') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_account_balance']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m172 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/img_transaction' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m106 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'DEPOSIT - T1-D1' or . = 'DEPOSIT - T1-D1') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_transaction_type_id']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m119 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '2022/07/11 - 11:13 am' or . = '2022/07/11 - 11:13 am') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_transaction_timestamp']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m136 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Amount: $10.00' or . = 'Amount: $10.00') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_transaction_amount']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m129 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m214 ms - 19619[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m962 ms - 149412[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageButton' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m119 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Transactions' or . = 'Transactions')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m336 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m306 ms - 14636[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m759 ms - 106964[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'No Transactions Found for this Account' or . = 'No Transactions Found for this Account') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_no_transactions']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m92 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m209 ms - 4887[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m857 ms - 260324[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Select an Account to Deposit to' or . = 'Select an Account to Deposit to') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_deposit_title']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m440 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'tes1 ($12.00)' or . = 'tes1 ($12.00)') and @resource-id = 'android:id/text1']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m243 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Spinner' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/dep_spn_accounts' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m495 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter Deposit Amount ($)' or . = 'Enter Deposit Amount ($)') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_deposit_amount']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m251 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'CANCEL' or . = 'CANCEL') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_cancel_deposit']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m371 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'DEPOSIT' or . = 'DEPOSIT') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_deposit']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m356 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m1096 ms - 12721[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m830 ms - 123118[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Select Sending Account' or . = 'Select Sending Account') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_from_acc_title']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m100 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Spinner' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/spn_select_sending_acc' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m106 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'tes1 ($12.00)' or . = 'tes1 ($12.00)') and @resource-id = 'android:id/text1']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m548 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Transfer Amount' or . = 'Transfer Amount') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_transfer_amount']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m102 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Select Receiving Account' or . = 'Select Receiving Account') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_to_acc_title']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m112 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Spinner' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/spn_select_receiving_acc' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m104 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'tes2 ($2.00)' or . = 'tes2 ($2.00)') and @resource-id = 'android:id/text1']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m99 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Confirm Transfer' or . = 'Confirm Transfer') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_confirm_transfer']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m102 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m204 ms - 12231[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m767 ms - 129070[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m345 ms - 12231[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m788 ms - 128786[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Select an Account to Pay from' or . = 'Select an Account to Pay from') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_select_acc_pay']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m934 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Spinner' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/spn_select_acc' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m305 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'tes1 ($12.00)' or . = 'tes1 ($12.00)') and @resource-id = 'android:id/text1']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m77 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Select a Payee' or . = 'Select a Payee') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_select_payee']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m91 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'You do not have any Payees. Add one below' or . = 'You do not have any Payees. Add one below') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_no_payees']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m92 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Add Payee' or . = 'Add Payee') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_add_payee_msg']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m106 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m100 ms - 3886[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m897 ms - 143304[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Add a Payee' or . = 'Add a Payee') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/textView']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m77 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Payee Name' or . = 'Payee Name') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_payee_name']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m86 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'CANCEL' or . = 'CANCEL') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_cancel_dialog']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m450 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'ADD' or . = 'ADD') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_add_payee']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m71 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m162 ms - 13670[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m766 ms - 131862[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Spinner' and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/spn_select_payee' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m96 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'jam (P1)' or . = 'jam (P1)') and @resource-id = 'android:id/text1']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m107 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Amount' or . = 'Amount') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_payment_amount']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m104 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Make Payment' or . = 'Make Payment') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/btn_make_payment']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/elements [39m[32m200[39m [90m432 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (63e2d572)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 898b719c-d534-4bf2-a541-fc0557fe7cbf with 63e2d572-f1bf-45f2-81b8-364097376583
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/source [39m[32m200[39m [90m139 ms - 12721[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m760 ms - 123610[39m
-[35m[HTTP][39m [90m[39m
-[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
-[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
-[35m[Appium][39m Removing session '63e2d572-f1bf-45f2-81b8-364097376583' from our master session list
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583 [39m[33m404[39m [90m29 ms - 2412[39m
+[35m[Appium][39m Removing session 4208ff57-672a-4e27-bd8b-2f5efc3bb085 from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/4208ff57-672a-4e27-bd8b-2f5efc3bb085 [39m[32m200[39m [90m203 ms - 14[39m
 [35m[HTTP][39m [90m[39m

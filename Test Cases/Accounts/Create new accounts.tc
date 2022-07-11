@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create new accounts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc47f2a5-a16d-453e-bc6d-8e97c2f36e39</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d1cb9f9b-1677-44f0-9f33-e8b352ad4e54</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5c71d1c-e11e-4e90-b2b1-0680dceb2c38</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'account6'</defaultValue>
+      <description></description>
+      <id>d1cb9f9b-1677-44f0-9f33-e8b352ad4e54</id>
+      <masked>false</masked>
+      <name>account_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>a5c71d1c-e11e-4e90-b2b1-0680dceb2c38</id>
+      <masked>false</masked>
+      <name>balance</name>
+   </variable>
+</TestCaseEntity>

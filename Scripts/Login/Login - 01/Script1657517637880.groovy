@@ -20,8 +20,6 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.bundleID, FailureHandling.STOP_ON_FAILURE)
 
-driver = MobileDriverFactory.getDriver()
-
 WebUI.delay(5)
 
 Mobile.verifyElementVisible(findTestObject('Landing Screen/Body/username'), 0)
@@ -57,6 +55,4 @@ Mobile.tap(findTestObject('Landing Screen/Body/btn_LOGIN'), 0, FailureHandling.S
 WebUI.delay(5)
 
 Mobile.verifyElementVisible(findTestObject('Dashboard/text_Good morning'), 0)
-
-driver.terminateApp(GlobalVariable.bundleID)
 
