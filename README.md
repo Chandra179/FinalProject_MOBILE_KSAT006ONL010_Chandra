@@ -1,4 +1,8 @@
-## User manual
+## Bank application
+
+-------------------
+
+## Login
 1. User with empty account <br>
 `username` : sum2 <br>
 `password` : sum2 <br>
