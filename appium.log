@@ -108,3 +108,9 @@
 [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.CheckedTextView' and (@text = 'account1 ($500.00)' or . = 'account1 ($500.00)') and @resource-id = 'android:id/text1']"}[39m
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/1c7d29df-4a94-4f24-8f0d-060dc36bac45/elements [39m[32m200[39m [90m1137 ms - 139[39m
 [35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/1c7d29df-4a94-4f24-8f0d-060dc36bac45[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 1c7d29df-4a94-4f24-8f0d-060dc36bac45 from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/1c7d29df-4a94-4f24-8f0d-060dc36bac45 [39m[32m200[39m [90m443 ms - 14[39m
+[35m[HTTP][39m [90m[39m

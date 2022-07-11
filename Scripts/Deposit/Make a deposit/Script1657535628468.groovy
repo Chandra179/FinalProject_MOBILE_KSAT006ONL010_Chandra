@@ -68,7 +68,8 @@ Mobile.verifyElementVisible(findTestObject('Accounts/Body/Have account/android.v
 String currentBalance = Mobile.getText(findTestObject('Accounts/Body/Have account/account_balance'), 
     0)
 
-String[] currentBalanceString = currentBalance.split('$')
+
+String[] currentBalanceString = currentBalance.split("(?<=\\D)(?=\\d)")
 
 Integer currentBalanceNums = (currentBalanceString[1]).toInteger()
 
@@ -76,7 +77,7 @@ Integer inputBalanceNums = deposit.toInteger()
 
 Integer updatedBalanceNums = currentBalanceNums + inputBalanceNums
 
-String updatedBalanceString = ((currentBalanceString[0]) + '$') + updatedBalanceNums.toString()
+String updatedBalanceString = ((currentBalanceString[0]) + '$') + updatedBalanceNums.toString() + '.00'
 
 Mobile.verifyElementText(findTestObject('Accounts/Body/Have account/account_balance'), updatedBalanceString)
 
