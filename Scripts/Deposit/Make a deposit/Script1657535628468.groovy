@@ -36,11 +36,6 @@ Mobile.tap(findTestObject('Menu/Left Menu/Body/android.widget.CheckedTextView - 
 // ====================================
 String balanceBeforeUpdate = Mobile.getText(findTestObject('Accounts/Body/Have account/account_balance'), 0)
 
-println('===================================')
-
-println(balanceBeforeUpdate)
-
-println('===================================')
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -84,22 +79,15 @@ WebUI.delay(5)
 Mobile.verifyElementVisible(findTestObject('Accounts/Body/Have account/android.view.ViewGroup'), 0)
 
 
-
+// ==========================================================
+// Perform balance checking before and after deposit update 
+// ==========================================================
 String[] currentBalanceString = balanceBeforeUpdate.split('(?<=\\D)(?=\\d)')
-
 Integer currentBalanceNums = (currentBalanceString[1]).replace('.', '').toInteger()
-
 Integer inputBalanceNums = deposit.toInteger()
-
 Integer updatedBalanceNums = currentBalanceNums + inputBalanceNums
-
 String updatedBalanceString = ((currentBalanceString[0]) + updatedBalanceNums.toString()) + '.00'
 
-println('===================================')
-
-println(updatedBalanceString)
-
-println('===================================')
 
 Mobile.verifyElementText(findTestObject('Accounts/Body/Have account/account_balance'), updatedBalanceString)
 
