@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Make new deposit to &quot;account1&quot;</description>
    <name>Make a deposit</name>
    <tag></tag>
    <comment></comment>

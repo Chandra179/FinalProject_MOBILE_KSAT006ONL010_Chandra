@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Login with &quot;sum2&quot;</description>
+   <description>Login with &quot;user: sum2&quot; this login only used for &quot;Test menu with empty accounts&quot;</description>
    <name>Login - Empty account</name>
    <tag></tag>
    <comment></comment>
