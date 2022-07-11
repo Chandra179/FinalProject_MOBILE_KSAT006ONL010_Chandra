@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>Login</name>
+   <description>Login with unregistered user shall not success</description>
+   <name>Login - 03</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c450de09-45c8-4cfa-99b4-1870a568f16b</testCaseGuid>
+   <testCaseGuid>e948bc0e-c1f4-48a7-83ff-b112e491e6ff</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e87a5b4e-59ab-427a-92a3-49ab530d53d2</variableId>
+      <variableId>b1c9ee07-0a8f-42ad-a642-4ad6eb0e7197</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a770811f-8177-4ed1-9c64-b91416f63aaf</variableId>
+      <variableId>e318d89a-c72e-4850-88b3-fb29436a9014</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'sum'</defaultValue>
       <description></description>
-      <id>e87a5b4e-59ab-427a-92a3-49ab530d53d2</id>
+      <id>b1c9ee07-0a8f-42ad-a642-4ad6eb0e7197</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'QTUPeOQfZV4='</defaultValue>
+      <defaultValue>'retrytuyrterte'</defaultValue>
       <description></description>
-      <id>a770811f-8177-4ed1-9c64-b91416f63aaf</id>
+      <id>e318d89a-c72e-4850-88b3-fb29436a9014</id>
       <masked>false</masked>
       <name>password</name>
    </variable>

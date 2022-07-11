@@ -54,5 +54,9 @@ WebUI.delay(5)
 
 Mobile.tap(findTestObject('Landing Screen/Body/btn_LOGIN'), 0, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
+Mobile.verifyElementVisible(findTestObject('Dashboard/text_Good morning'), 0)
+
 driver.terminateApp(GlobalVariable.bundleID)
 
