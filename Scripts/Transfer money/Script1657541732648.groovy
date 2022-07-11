@@ -74,22 +74,12 @@ Mobile.tap(findTestObject('Transfer/Body/btn_Confirm Transfer'), 0, FailureHandl
 Integer inputBalanceNums = moneyToTransfer.toInteger()
 
 String[] receiverBalanceString = receiver.split('(?<=\\D)(?=\\d)')
-
-println("===================================")
-println(receiverBalanceString)
-println("===================================")
-
 Integer receiverBalanceNums = (receiverBalanceString[2]).replace('.', '').toInteger()
 Integer updatedBalanceReceiverNums = receiverBalanceNums + inputBalanceNums
 String updatedBalanceReceiverString = ((receiverBalanceString[0] + receiverBalanceString[1]) + updatedBalanceReceiverNums.toString()) + '.00' + ')'
 
 
-
 String[] senderBalanceString = sender.split('(?<=\\D)(?=\\d)')
-println("===================================")
-println(senderBalanceString)
-println("===================================")
-
 Integer senderBalanceNums = (senderBalanceString[2]).replace('.', '').toInteger()
 Integer updatedBalanceSenderNums = senderBalanceNums - inputBalanceNums
 String updatedBalanceSenderString = ((senderBalanceString[0] + senderBalanceString[1]) + updatedBalanceSenderNums.toString()) + '.00' + ')'

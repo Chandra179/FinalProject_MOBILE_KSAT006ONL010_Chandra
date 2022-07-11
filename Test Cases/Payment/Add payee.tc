@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add payee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3767083-023c-4b4b-9390-4754079c8694</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26c8a77d-56d7-400d-b6a6-1d510dd33d4e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'jack'</defaultValue>
+      <description></description>
+      <id>26c8a77d-56d7-400d-b6a6-1d510dd33d4e</id>
+      <masked>false</masked>
+      <name>payee_name</name>
+   </variable>
+</TestCaseEntity>
