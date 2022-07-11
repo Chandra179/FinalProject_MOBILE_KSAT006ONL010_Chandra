@@ -31,29 +31,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3ad052b9-0f66-4172-a38d-1186188dc9b4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Login - 02</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>dc4d8d9a-bb89-4012-82af-7cc4a29443c9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>870a8767-b088-46b5-9e27-b333f0c38dc3</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>263c7273-d569-4566-b90a-eb26d441b2f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Login - 03</testCaseId>
+      <testCaseId>Test Cases/Login/Login - 02</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
