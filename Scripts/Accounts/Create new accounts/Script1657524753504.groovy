@@ -61,8 +61,9 @@ Mobile.tap(findTestObject('Accounts/Add an Account/android.widget.Button - ADD')
 
 WebUI.delay(5)
 
+
 // =============================
-// Loop until get the last item
+// Defined Xpath
 // =============================
 Integer index = 1
 
@@ -80,6 +81,11 @@ String viewText2 = '/android.widget.TextView[2]'
 
 String viewText3 = '/android.widget.TextView[3]'
 
+
+// =============================
+// Get TestObject from Xpath
+// =============================
+
 def testObject = loopXpath.getTestObjectWithXpath(fullXpath)
 
 def testObjectImage1 = loopXpath.getTestObjectWithXpath(fullXpath + viewImage1)
@@ -96,17 +102,17 @@ while (flag) {
     // Check test object if its not exist
     if (!(Mobile.verifyElementExist(testObject, 0, FailureHandling.OPTIONAL))) {
         flag = false
-
         break
     }
     
-    // Check test object if its not exist, after index+1
+    // Check test object if its not exist, after index + 1
     if (!(Mobile.verifyElementExist(loopXpath.getTestObjectWithXpath((xpath + (index + 1)) + xpath2), 0, FailureHandling.OPTIONAL))) {
         flag = false
-
         break
     }
     
+	
+	// Update Xpath and testObject
     index += 1
 
     fullXpath = ((xpath + index) + xpath2)
