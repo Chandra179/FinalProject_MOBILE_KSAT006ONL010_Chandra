@@ -29,6 +29,10 @@ Mobile.tap(findTestObject('Menu/btn_Left menu'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('Menu/Left Menu/Body/android.widget.CheckedTextView - Make a Payment'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Payment/Bottom/btn_Add new payee'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
