@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Transfer money</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bca329cd-b642-4ec8-8ccf-b78e416b5c38</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09d5efb5-2b9d-47d6-b07b-46117c779a77</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'50'</defaultValue>
+      <description></description>
+      <id>09d5efb5-2b9d-47d6-b07b-46117c779a77</id>
+      <masked>false</masked>
+      <name>moneyToTransfer</name>
+   </variable>
+</TestCaseEntity>
