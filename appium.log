@@ -782,3 +782,6 @@
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/63e2d572-f1bf-45f2-81b8-364097376583/screenshot [39m[32m200[39m [90m760 ms - 123610[39m
 [35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session '63e2d572-f1bf-45f2-81b8-364097376583' from our master session list

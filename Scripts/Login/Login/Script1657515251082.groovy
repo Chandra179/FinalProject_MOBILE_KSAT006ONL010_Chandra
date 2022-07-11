@@ -18,7 +18,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication(GlobalVariable.package, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.bundleID, FailureHandling.STOP_ON_FAILURE)
 
 driver = MobileDriverFactory.getDriver()
 
@@ -54,9 +54,5 @@ WebUI.delay(5)
 
 Mobile.tap(findTestObject('Landing Screen/Body/btn_LOGIN'), 0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
-
-Mobile.verifyElementText(findTestObject('Dashboard/text_Good morning'), 'Good morning, '+ username +'. Welcome to the Bank App Demo. Happy Monday.')
-
-driver.terminateApp(GlobalVariable.package)
+driver.terminateApp(GlobalVariable.bundleID)
 

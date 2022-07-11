@@ -7,6 +7,6 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'com.example.mikebanks.bankscorpfinancial'</initValue>
-      <name>package</name>
+      <name>bundleID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
