@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Chandra - TC Mobile
+Description: </description>
+   <name>MP-10 Chandra - TC Mobile</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i00053:&quot;},&quot;status&quot;:{&quot;id&quot;:3,&quot;description&quot;:&quot;This issue is being actively worked on at the moment by the assignee.&quot;,&quot;iconUrl&quot;:&quot;https://timbelajar1.atlassian.net/images/icons/statuses/inprogress.png&quot;,&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/status/3&quot;,&quot;name&quot;:&quot;In Progress&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;MP&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Mobile Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Chandra - TC Mobile&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;chandrafirst67@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;chandra&quot;,&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/user?accountId\u003d62c4eb06fa577c57c3b6ba36&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;chandrafirst67@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;chandra&quot;,&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/user?accountId\u003d62c4eb06fa577c57c3b6ba36&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/issue/MP-10/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/issue/10024&quot;,&quot;key&quot;:&quot;MP-10&quot;,&quot;id&quot;:10024}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>76545d3c-eb99-4d25-8a5d-f06f658a6a57</testCaseGuid>
+</TestCaseEntity>
