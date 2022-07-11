@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Creeate profile with valid input should success</description>
+   <name>Empty dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5dae539d-29f4-43a9-a3e8-7ceea7872702</testCaseGuid>
+</TestCaseEntity>

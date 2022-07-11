@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Creeate profile with valid input should success</description>
+   <name>Deposit error</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee51025c-efda-4440-8b60-468aa6ea157b</testCaseGuid>
+</TestCaseEntity>

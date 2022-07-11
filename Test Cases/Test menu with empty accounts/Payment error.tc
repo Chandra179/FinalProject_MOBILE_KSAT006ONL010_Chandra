@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Creeate profile with valid input should success</description>
+   <name>Payment error</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d8c9447-43d8-47b8-a391-057c45734910</testCaseGuid>
+</TestCaseEntity>
