@@ -1,6 +1,8 @@
 ## Bank application
 
 -------------------
+## Create a profile
+1. Input : `firstname, lastname, country, username, password, confirm password`
 
 ## Login
 1. User with empty account <br>
