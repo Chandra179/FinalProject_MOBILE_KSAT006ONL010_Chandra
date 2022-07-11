@@ -29,7 +29,28 @@ Mobile.tap(findTestObject('Menu/btn_Left menu'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('Menu/Left Menu/Body/android.widget.CheckedTextView - Accounts'), 0)
+
+// ====================================
+// Get Account1 balance before updated
+// ====================================
+String balanceBeforeUpdate = Mobile.getText(findTestObject('Accounts/Body/Have account/account_balance'), 0)
+
+println('===================================')
+
+println(balanceBeforeUpdate)
+
+println('===================================')
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Menu/btn_Left menu'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Menu/Left Menu/Body/android.widget.CheckedTextView - Make a Deposit'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Deposit/Make a deposit/android.widget.TextView - Select an Account to Deposit to'), 
     0)
@@ -62,22 +83,23 @@ WebUI.delay(5)
 
 Mobile.verifyElementVisible(findTestObject('Accounts/Body/Have account/android.view.ViewGroup'), 0)
 
-// ==============================
-// Get Account1 current balance
-// ==============================
-String currentBalance = Mobile.getText(findTestObject('Accounts/Body/Have account/account_balance'), 
-    0)
 
 
-String[] currentBalanceString = currentBalance.split("(?<=\\D)(?=\\d)")
+String[] currentBalanceString = balanceBeforeUpdate.split('(?<=\\D)(?=\\d)')
 
-Integer currentBalanceNums = (currentBalanceString[1]).toInteger()
+Integer currentBalanceNums = (currentBalanceString[1]).replace('.', '').toInteger()
 
 Integer inputBalanceNums = deposit.toInteger()
 
 Integer updatedBalanceNums = currentBalanceNums + inputBalanceNums
 
-String updatedBalanceString = ((currentBalanceString[0]) + '$') + updatedBalanceNums.toString() + '.00'
+String updatedBalanceString = ((currentBalanceString[0]) + updatedBalanceNums.toString()) + '.00'
+
+println('===================================')
+
+println(updatedBalanceString)
+
+println('===================================')
 
 Mobile.verifyElementText(findTestObject('Accounts/Body/Have account/account_balance'), updatedBalanceString)
 
