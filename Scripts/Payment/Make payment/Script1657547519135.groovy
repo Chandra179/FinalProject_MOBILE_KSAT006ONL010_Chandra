@@ -76,7 +76,7 @@ Integer inputAmount = amount.toInteger()
 String[] amountString = payFrom.split('(?<=\\D)(?=\\d)')
 
 Integer amountNums = (amountString[2]).replace('.', '').toInteger()
-Integer updatedAmountNums = amountNums + inputAmount
+Integer updatedAmountNums = amountNums - inputAmount
 String updatedAmountString = ((amountString[0] + amountString[1]) + updatedAmountNums.toString()) + '.00' + ')'
 
 Mobile.verifyElementText(findTestObject('Object Repository/Payment/Body/android.widget.TextView - tes1 (12.00)'), updatedAmountString)
