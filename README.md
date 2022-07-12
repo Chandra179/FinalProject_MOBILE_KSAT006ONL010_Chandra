@@ -36,9 +36,14 @@ Input : `firstname, lastname, country, username, password, confirm password`
   
 ## Test Case
 1. Add new Accounts <br>
-add new accounts `account name, balance`
+add new accounts `account name, balance` <br>
 2. Create a profile <br>
   2.1 Create account with valid input should success <br>
   2.2 Create account using registed username should failed <br>
   2.3 Create account with invalid confirm password should failed <br>
 3. Login <br>
+  3.1 Login using registered user should success <br>
+  3.2 Login using unregistered user should failed <br>
+4. Make a deposit <br>
+Make a deposit to specific account <br>
+5. 
