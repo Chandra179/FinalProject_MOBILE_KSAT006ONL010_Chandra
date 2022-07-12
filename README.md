@@ -46,4 +46,12 @@ add new accounts `account name, balance` <br>
   3.2 Login using unregistered user should failed <br>
 4. Make a deposit <br>
 Make a deposit to specific account <br>
-5. 
+5. Payment <br>
+  5.1 Add new payee <br>
+  5.2 Make payment `transfer money to payee` <br>
+6. Test menu with empty accounts <br>
+  6.1 Deposit menu : `show Deposit error`
+  6.2 Account menu : `show Add an account with button below`
+  6.3 Dashboard menu : `show button ADD ACCOUNT`
+  6.4 Transfer menu : `show transfer error`
+  6.5 Payment menu : `show payment error`
