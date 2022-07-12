@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Make sure to input NEW ACCOUNTS. verify account name, balance, and  account id</description>
+   <description>create account wih registered account name</description>
    <name>Create new accounts - 02</name>
    <tag></tag>
    <comment></comment>

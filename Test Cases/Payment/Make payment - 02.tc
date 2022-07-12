@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Pay with insufficient amount</description>
+   <description>Pay with insufficient amount to john1</description>
    <name>Make payment - 02</name>
    <tag></tag>
    <comment></comment>

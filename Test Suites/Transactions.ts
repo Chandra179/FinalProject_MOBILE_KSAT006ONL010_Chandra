@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Login</name>
+   <name>Transactions</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,43 +10,31 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>0d8c2d98-e832-4490-85b7-9f74b74e8e9c</testSuiteGuid>
+   <testSuiteGuid>0c940d8c-b65a-490b-a8d5-c2d90bbeeac5</testSuiteGuid>
    <testCaseLink>
-      <guid>263c7273-d569-4566-b90a-eb26d441b2f3</guid>
+      <guid>6abdee55-9d34-494a-a2f6-cac998c9dda5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Login - 02</testCaseId>
+      <testCaseId>Test Cases/Make a deposit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b1c9ee07-0a8f-42ad-a642-4ad6eb0e7197</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e318d89a-c72e-4850-88b3-fb29436a9014</variableId>
+         <variableId>6cc56d47-82e4-4d81-8951-374681f5b2d0</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>042d1e9d-68a9-4c99-9bec-64b1ea595a74</guid>
+      <guid>1c6261cb-86d1-46b2-a701-60e381ed3cc4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Login - 01</testCaseId>
+      <testCaseId>Test Cases/Transfer money</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e87a5b4e-59ab-427a-92a3-49ab530d53d2</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a770811f-8177-4ed1-9c64-b91416f63aaf</variableId>
+         <variableId>09d5efb5-2b9d-47d6-b07b-46117c779a77</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

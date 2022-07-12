@@ -57,7 +57,7 @@ Mobile.tap(findTestObject('Accounts/Add an Account/android.widget.EditText - Ini
 Mobile.setText(findTestObject('Accounts/Add an Account/android.widget.EditText - Initial Balance (Optional)'), balance, 
     0)
 
-Mobile.tap(findTestObject('Accounts/Add an Account/android.widget.Button - ADD'), 0)
+Mobile.tap(findTestObject('Accounts/Add an Account/android.widget.Button - ADD'), 0, FailureHandling.STOP_ON_FAILURE)
 
 driver.terminateApp(GlobalVariable.bundleID)
 

@@ -64,7 +64,7 @@ Mobile.setText(findTestObject('Payment/Body/Select payee/android.widget.EditText
 //======================
 // After transfer money
 //======================
-Mobile.tap(findTestObject('Payment/Body/Select payee/android.widget.Button - Make Payment'), 0)
+Mobile.tap(findTestObject('Payment/Body/Select payee/android.widget.Button - Make Payment'), 0, FailureHandling.STOP_ON_FAILURE)
 
 driver.terminateApp(GlobalVariable.bundleID)
 
