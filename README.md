@@ -33,3 +33,12 @@ Input : `firstname, lastname, country, username, password, confirm password`
   1.1 pay money to `payee` <br>
 2. Payee <br>
   2.1 payee receive money from `payer`
+  
+## Test Case
+1. Add new Accounts <br>
+add new accounts `account name, balance`
+2. Create a profile <br>
+  2.1 Create account with valid input should success <br>
+  2.2 Create account using registed username should failed <br>
+  2.3 Create account with invalid confirm password should failed <br>
+3. Login <br>
