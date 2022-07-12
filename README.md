@@ -1,4 +1,4 @@
-#Bank application
+# Bank application
 
 ## Create a profile
 Input : `firstname, lastname, country, username, password, confirm password`
