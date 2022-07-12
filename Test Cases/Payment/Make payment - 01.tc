@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pay with sufficient amount</description>
+   <name>Make payment - 01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2625f54-d2da-4d0b-9dd8-3fa159e82073</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>235477c7-346a-443c-b1a7-b97221cee9d5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>235477c7-346a-443c-b1a7-b97221cee9d5</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+</TestCaseEntity>

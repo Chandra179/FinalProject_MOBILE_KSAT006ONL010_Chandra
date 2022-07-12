@@ -28,13 +28,26 @@
       <guid>874e4d46-0277-4675-be94-44060f561798</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payment/Make payment</testCaseId>
+      <testCaseId>Test Cases/Payment/Make payment - 01</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
          <variableId>235477c7-346a-443c-b1a7-b97221cee9d5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1d2d1f19-dd31-4503-85fb-5c47c45cd817</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Payment/Make payment - 02</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8e8da72f-e34a-447b-a061-921b33a0b6c3</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

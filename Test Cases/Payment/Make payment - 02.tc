@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>Make payment</name>
+   <description>Pay with insufficient amount</description>
+   <name>Make payment - 02</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a2625f54-d2da-4d0b-9dd8-3fa159e82073</testCaseGuid>
+   <testCaseGuid>6e91cf3f-eaed-4b06-9f00-47a36127bec7</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>235477c7-346a-443c-b1a7-b97221cee9d5</variableId>
+      <variableId>8e8da72f-e34a-447b-a061-921b33a0b6c3</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'100'</defaultValue>
+      <defaultValue>'666666666666666666666666'</defaultValue>
       <description></description>
-      <id>235477c7-346a-443c-b1a7-b97221cee9d5</id>
+      <id>8e8da72f-e34a-447b-a061-921b33a0b6c3</id>
       <masked>false</masked>
       <name>amount</name>
    </variable>

@@ -62,25 +62,9 @@ Mobile.tap(findTestObject('Payment/Body/Select payee/android.widget.EditText - A
 Mobile.setText(findTestObject('Payment/Body/Select payee/android.widget.EditText - Amount'), amount, 0)
 
 //======================
-// Before transfer money
-//======================
-String payFrom = Mobile.getText(findTestObject('Object Repository/Payment/Body/android.widget.TextView - tes1 (12.00)'), 0)
-
-//======================
 // After transfer money
 //======================
 Mobile.tap(findTestObject('Payment/Body/Select payee/android.widget.Button - Make Payment'), 0)
-
-Integer inputAmount = amount.toInteger()
-
-String[] amountString = payFrom.split('(?<=\\D)(?=\\d)')
-
-Integer amountNums = (amountString[2]).replace('.', '').toInteger()
-Integer updatedAmountNums = amountNums - inputAmount
-String updatedAmountString = ((amountString[0] + amountString[1]) + updatedAmountNums.toString()) + '.00' + ')'
-
-Mobile.verifyElementText(findTestObject('Object Repository/Payment/Body/android.widget.TextView - tes1 (12.00)'), updatedAmountString)
-
 
 driver.terminateApp(GlobalVariable.bundleID)
 
