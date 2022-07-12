@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Creeate profile with valid input should success</description>
+   <description>Empty accounts</description>
    <name>Transfer error</name>
    <tag></tag>
    <comment></comment>
