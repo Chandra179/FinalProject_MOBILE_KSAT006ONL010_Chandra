@@ -30,7 +30,7 @@ Input : `firstname, lastname, country, username, password, confirm password`
   
 ## Payment
 1. Payer <br>
-  1.1 pay money to `payee` <br>
+  1.1 Make payment to `payee` should success<br>
 2. Payee <br>
   2.1 payee receive money from `payer`
   
@@ -45,13 +45,15 @@ add new accounts `account name, balance` <br>
   3.1 Login using registered user should success <br>
   3.2 Login using unregistered user should failed <br>
 4. Make a deposit <br>
-Make a deposit to specific account <br>
+Make a deposit to specific account should success<br>
 5. Payment <br>
   5.1 Add new payee <br>
-  5.2 Make payment `transfer money to payee` <br>
+  5.2 Make payment `transfer money to payee` should success<br>
 6. Test menu with empty accounts <br>
   6.1 Deposit menu : `show Deposit error` <br>
   6.2 Account menu : `show Add an account with button below` <br>
   6.3 Dashboard menu : `show button ADD ACCOUNT` <br>
   6.4 Transfer menu : `show transfer error` <br>
   6.5 Payment menu : `show payment error` <br>
+7. Transfer <br>
+Transfer money from `Sending account` to `Receiver account` should success
