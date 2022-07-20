@@ -42,14 +42,14 @@
       <variableId>fa845ea8-3eb6-4e4e-991e-154865c2e02f</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'sum8'</defaultValue>
+      <defaultValue>'sum4'</defaultValue>
       <description></description>
       <id>351d7ac0-f5f9-4bcd-93fe-19bacf2b70f0</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
-      <defaultValue>'sum8'</defaultValue>
+      <defaultValue>'sum4'</defaultValue>
       <description></description>
       <id>5b4ff7b6-c709-476e-ae0e-2d137e196e12</id>
       <masked>false</masked>
@@ -70,14 +70,14 @@
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'9uL9itmRCLQ='</defaultValue>
+      <defaultValue>'Arw5ITtbyA4='</defaultValue>
       <description></description>
       <id>00abafef-22d5-415b-8f78-45155c814f17</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>'9uL9itmRCLQ='</defaultValue>
+      <defaultValue>'Arw5ITtbyA4='</defaultValue>
       <description></description>
       <id>fa845ea8-3eb6-4e4e-991e-154865c2e02f</id>
       <masked>false</masked>
