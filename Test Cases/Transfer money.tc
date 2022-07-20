@@ -12,7 +12,7 @@
       <variableId>09d5efb5-2b9d-47d6-b07b-46117c779a77</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'50'</defaultValue>
+      <defaultValue>'10'</defaultValue>
       <description></description>
       <id>09d5efb5-2b9d-47d6-b07b-46117c779a77</id>
       <masked>false</masked>

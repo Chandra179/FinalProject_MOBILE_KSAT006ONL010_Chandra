@@ -74,15 +74,23 @@ Mobile.tap(findTestObject('Transfer/Body/btn_Confirm Transfer'), 0, FailureHandl
 Integer inputBalanceNums = moneyToTransfer.toInteger()
 
 String[] receiverBalanceString = receiver.split('(?<=\\D)(?=\\d)')
-Integer receiverBalanceNums = (receiverBalanceString[2]).replace('.', '').toInteger()
+
+String receiverBalance1 = (receiverBalanceString[2]).replace('.', '')
+String receiverBalance2 = receiverBalance1.replace(' ', '')
+Integer receiverBalanceNums = receiverBalance2.toInteger()
 Integer updatedBalanceReceiverNums = receiverBalanceNums + inputBalanceNums
-String updatedBalanceReceiverString = ((receiverBalanceString[0] + receiverBalanceString[1]) + updatedBalanceReceiverNums.toString()) + '.00' + ')'
+String updatedBalanceReceiverString = (receiverBalanceString[0] + receiverBalanceString[1] + updatedBalanceReceiverNums.toString()) + '.00' + ')'
+
+
 
 
 String[] senderBalanceString = sender.split('(?<=\\D)(?=\\d)')
-Integer senderBalanceNums = (senderBalanceString[2]).replace('.', '').toInteger()
+
+String senderBalance1 = (senderBalanceString[2]).replace('.', '')
+String senderBalance2 = senderBalance1.replace(' ', '')
+Integer senderBalanceNums = senderBalance2.toInteger()
 Integer updatedBalanceSenderNums = senderBalanceNums - inputBalanceNums
-String updatedBalanceSenderString = ((senderBalanceString[0] + senderBalanceString[1]) + updatedBalanceSenderNums.toString()) + '.00' + ')'
+String updatedBalanceSenderString = (senderBalanceString[0] + senderBalanceString[1] + updatedBalanceSenderNums.toString()) + '.00' + ')'
 
 Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Body/Receiving account/text_Spinner receiving acccount'), updatedBalanceReceiverString)
 

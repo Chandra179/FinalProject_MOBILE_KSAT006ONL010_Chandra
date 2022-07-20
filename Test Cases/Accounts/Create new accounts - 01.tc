@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Make sure to input NEW ACCOUNTS</description>
+   <description>create new accounts</description>
    <name>Create new accounts - 01</name>
    <tag></tag>
    <comment></comment>

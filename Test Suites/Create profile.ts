@@ -12,6 +12,49 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>3c781590-71fa-406c-9554-ca0288f6f267</testSuiteGuid>
    <testCaseLink>
+      <guid>ca21594d-461a-484e-8f49-b0045b209de8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create profile/Create a profile - 01</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>351d7ac0-f5f9-4bcd-93fe-19bacf2b70f0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5b4ff7b6-c709-476e-ae0e-2d137e196e12</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aca07bca-59bf-4501-be2e-02fe2ae95a26</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ff02aac3-e50d-47b0-b7db-655c6ad207d9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>00abafef-22d5-415b-8f78-45155c814f17</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa845ea8-3eb6-4e4e-991e-154865c2e02f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>bb857ecb-6bec-4232-981e-c0dea6d1cbf0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -95,6 +138,49 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>61dfbba8-ec26-426d-853e-b7b4bae44ad3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a7afe1c7-b511-4029-b252-913f4843a85e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create profile/Create a profile - 04</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c5d5b898-b53d-4ec1-834d-68ce582d2ba3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2055ea89-4c5a-4390-aa98-88fca1b384a5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9798134-1d25-482d-bab2-e073282cae4f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>749552e2-7aef-4b23-8973-f8f716f9a0fe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7a3fe836-ef2e-4a0b-adbb-1b1b06eab124</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2099f2b6-a7b5-485d-95e6-04839c465c7a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
