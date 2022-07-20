@@ -12,32 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>0d8c2d98-e832-4490-85b7-9f74b74e8e9c</testSuiteGuid>
    <testCaseLink>
-      <guid>042d1e9d-68a9-4c99-9bec-64b1ea595a74</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Login - 01</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e87a5b4e-59ab-427a-92a3-49ab530d53d2</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a770811f-8177-4ed1-9c64-b91416f63aaf</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4d048917-4953-4a3e-858b-4123304b6a79</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Closeapp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>263c7273-d569-4566-b90a-eb26d441b2f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -57,29 +31,22 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2024fb3b-784d-4b12-8bda-12ec7bd93ced</guid>
+      <guid>042d1e9d-68a9-4c99-9bec-64b1ea595a74</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Login - Empty account</testCaseId>
+      <testCaseId>Test Cases/Login/Login - 01</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e71e7903-dcd5-4952-9e71-3b89b86625fc</variableId>
+         <variableId>e87a5b4e-59ab-427a-92a3-49ab530d53d2</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>00d8467f-67fa-44a8-be0c-467509537764</variableId>
+         <variableId>a770811f-8177-4ed1-9c64-b91416f63aaf</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a1fa9d56-ca77-4b81-996c-25721ca53daa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Closeapp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

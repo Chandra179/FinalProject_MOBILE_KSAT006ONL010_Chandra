@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Create empty account</description>
+   <description>Create account with invalid confirm password should failed</description>
    <name>Create a profile - 03</name>
    <tag></tag>
    <comment></comment>
@@ -42,14 +42,14 @@
       <variableId>61dfbba8-ec26-426d-853e-b7b4bae44ad3</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'sum2'</defaultValue>
+      <defaultValue>'sum09'</defaultValue>
       <description></description>
       <id>53dcd830-9893-479a-adac-613a26d94f28</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
-      <defaultValue>'sum2'</defaultValue>
+      <defaultValue>'sum09'</defaultValue>
       <description></description>
       <id>0cf7dacb-788e-4b95-acce-ee0cb8c47d8d</id>
       <masked>false</masked>
@@ -63,21 +63,21 @@
       <name>country</name>
    </variable>
    <variable>
-      <defaultValue>'sum2'</defaultValue>
+      <defaultValue>'sum9'</defaultValue>
       <description></description>
       <id>98206a80-486c-494c-bed6-1295d5e2a494</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'683gk5JBNGo='</defaultValue>
+      <defaultValue>'QTUPeOQfZV4='</defaultValue>
       <description></description>
       <id>3011ad76-9906-4744-8a88-0df059e527d1</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>'683gk5JBNGo='</defaultValue>
+      <defaultValue>'ABswJ1Yx0xk='</defaultValue>
       <description></description>
       <id>61dfbba8-ec26-426d-853e-b7b4bae44ad3</id>
       <masked>false</masked>
