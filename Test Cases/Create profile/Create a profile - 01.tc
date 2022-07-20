@@ -63,7 +63,7 @@
       <name>country</name>
    </variable>
    <variable>
-      <defaultValue>'sum8'</defaultValue>
+      <defaultValue>'sum4'</defaultValue>
       <description></description>
       <id>ff02aac3-e50d-47b0-b7db-655c6ad207d9</id>
       <masked>false</masked>
